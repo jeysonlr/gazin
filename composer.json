@@ -1,15 +1,26 @@
 {
     "name": "gazin/http",
+    "description": "Status Http",
     "type": "library",
     "keywords": [
+        "psr",
         "psr-4"
     ],
+    "authors": [
+        {
+            "name": "Jeyson Luiz Romualdo",
+            "email": "jeysonlr@gmail.com"
+        }
+    ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "psr-4": "*",
+        "doctrine/annotations": "v1.8.0",
+        "composer/composer": "1.9.0"
     },
     "autoload": {
         "psr-4": {
-            "Http\\": "gazin/http/Http/"
+            "Http\\": "Http/"
         }
     },
     "minimum-stability": "dev",
