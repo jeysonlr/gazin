@@ -14,7 +14,6 @@
     ],
     "require": {
         "php": "^7.1",
-        "psr-4": "*",
         "doctrine/annotations": "v1.8.0",
         "composer/composer": "1.9.0"
     },
