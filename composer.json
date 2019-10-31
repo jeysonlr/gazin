@@ -7,10 +7,11 @@
     "require": {
         "php": "^7.1"
     },
-
     "autoload": {
         "psr-4": {
-            "Http\\": ""
+            "Gazin\\": "gazin/Http"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
