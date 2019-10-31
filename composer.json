@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "gazin\\": "gazin/http/Http/"
+            "Http\\": "gazin/http/Http/"
         }
     },
     "minimum-stability": "dev",
